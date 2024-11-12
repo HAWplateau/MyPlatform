@@ -5,7 +5,6 @@ body {
     display: block;
     text-align: center;
       font-size: 16px;
-    filter: brightness(2.75);
     height: 100vh;
       overflow: auto;
     background: black;
@@ -15,7 +14,8 @@ body {
   h1{
     color: red;
     stroke: black;
-    font-size: 10rem;
+    font-size: 5rem;
+    letter-spacing: -0.5vw;
   }
   
   h1,h2{
@@ -30,33 +30,34 @@ body {
   }
 
   h2{
-    margin: 0px;
+    margin-top: 3rem;
   padding: 5px;
   margin-bottom: 20px;
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
-  text-transform: ;
+  text-transform:;
   font-family: fantasy;
-  letter-spacing: 0,5rem;
-  writing-mode: vertical-rl; 
-  text-align: left;
+  letter-spacing: 0.7rem;
+  writing-mode:sideways-lr
+  text-align: center;
   text-orientation: upright;
   color: white; 
   }
 
   p{
     margin: 0px;
-  padding: 5px;
+  padding: 2px;
   margin-bottom: 20px;
-  font-weight: bold;
+  font-weight: normal;
   text-align: center;
   text-transform: uppercase;
-  text-transform: ;
+  line-height: normal;
+  text-transform:;
   font-family: system-ui;
   color: white;
-  font-size: -3rem;
-  letter-spacing: 1,5rem;
+  font-size: 0.7rem;
+  letter-spacing: 0.7rem;
 
   } 
   
@@ -67,14 +68,14 @@ body {
     flex-direction: column;
     flex-wrap: inherit;
     justify-content: center;
-    align-items: flex-start; 
+    align-items: center; 
     gap: 0px;
     padding: 0px;
   }
   
   
    .textblock{
-    justify-content: center;
+    justify-content: flex-start;
     display: block;
      width: 100%;
      font-family: 'Segoe UI';
@@ -83,13 +84,31 @@ body {
 
 
   img {
-    width: 40%;
+    width: 30%;
     height: auto;
     border: solid;
     border-width: 1rem;
-    justify-items: left;
+    justify-items: center;
+    position: relative;
+    justify-content: center;
+    
   }
 
+  
+  h1,.extralarge{
+    padding-top:;
+      font-size: 10vw;
+      line-height: 0.8em;
+      letter-spacing: 0vw;
+  }
+
+
+  .extraextralarge{
+      font-size: 15vw;
+      line-height: 0.75em;
+      letter-spacing: 3vw;
+  }
+  
 
     /* 
   h2,h1,.one_col{
