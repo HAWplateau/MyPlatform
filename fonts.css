@@ -1,7 +1,15 @@
 @font-face {
   font-family: CompagnonLight;
-  src:url(../fonts/Compagnon-Light.woff) format("woff"),
-      url(../fonts/Compagnon-Light.woff2) format("woff2");
+  src:url(fonts/Compagnon-Light.woff) format("woff"),
+      url(fonts/Compagnon-Light.woff2) format("woff2");
+  font-weight:200;
+  font-style:normal;
+}
+
+@font-face {
+  font-family: CooperHewitt;
+  src:url(fonts/CooperHewitt-Heavy.otf) format("otf"),
+      url(fonts/CooperHewitt-Book.otf) format("otf");
   font-weight:200;
   font-style:normal;
 }

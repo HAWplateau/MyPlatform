@@ -1,5 +1,5 @@
 body {
-    font-family: fantasy;
+    font-family: CooperHewitt;
     background: white;
     color: black;
     display: block;
@@ -25,7 +25,7 @@ body {
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
-    font-family: fantasy;
+    font-family: system-ui;
     letter-spacing: 0,5rem;
   }
 
@@ -84,8 +84,8 @@ body {
 
 
   img {
-    width: 30%;
     height: auto;
+    width: 20%;
     border: solid;
     border-width: 1rem;
     justify-items: center;
@@ -93,6 +93,19 @@ body {
     justify-content: center;
     
   }
+
+  img:hover {
+    width: 35%;
+    max-height: auto;
+    border: solid;
+    border-width: 1rem;
+    justify-items: center;
+    position: relative;
+    justify-content: center;
+    margin: -3rem;
+    
+  }
+
 
   
   h1,.extralarge{
