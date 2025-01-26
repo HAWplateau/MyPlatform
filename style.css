@@ -1,141 +1,173 @@
 body {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: CooperHewitt;
   background: white;
   color: black;
   display: block;
-  text-align: left;
-	position: block;
-	font-size: 16px;
+  text-align: center;
+    font-size: 16px;
   height: 100vh;
-	overflow: auto;
-  z-index: 2;
+    overflow: auto;
+  background: black;
+  justify-content: center;
+}
+
+h1{
+  color: red;
+  stroke: black;
+  font-size: 5rem;
+  letter-spacing: -0.5vw;
+}
+
+h1,h2{
+    margin: 0px;
+  padding: 5px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: system-ui;
+  letter-spacing: 0,5rem;
+}
+
+h2{
+  margin-top: 3rem;
+padding: 5px;
+margin-bottom: 20px;
+font-weight: bold;
+text-align: center;
+text-transform: uppercase;
+text-transform:;
+font-family: fantasy;
+letter-spacing: 0.7rem;
+writing-mode:sideways-lr
+text-align: center;
+text-orientation: upright;
+color: white; 
+}
+
+p{
+  margin: 0px;
+padding: 2px;
+margin-bottom: 20px;
+font-weight: normal;
+text-align: center;
+text-transform: uppercase;
+line-height: normal;
+text-transform:;
+font-family: system-ui;
+color: white;
+font-size: 0.7rem;
+letter-spacing: 0.7rem;
+
+} 
 
 
 
-    
+.ganzertext{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: inherit;
+  justify-content: center;
+  align-items: center; 
+  gap: 0px;
+  padding: 0px;
+}
+
+
+ .textblock{
+  justify-content: flex-start;
+  display: block;
+   width: 100%;
+   font-family: 'Segoe UI';
+   flex-wrap: wrap;
   }
-  
 
-  .container{
+
+img {
+  height: auto;
+  width: 20%;
+  border: solid;
+  border-width: 1rem;
+  justify-items: center;
+  position: relative;
+  justify-content: center;
+  
+}
+
+img:hover {
+  width: 35%;
+  max-height: auto;
+  border: solid;
+  border-width: 1rem;
+  justify-items: center;
+  position: relative;
+  justify-content: center;
+  margin: -3rem;
+  z-index: 100;
+  
+}
+
+
+
+h1,.extralarge{
+  padding-top:;
+    font-size: 10vw;
+    line-height: 0.8em;
+    letter-spacing: 0vw;
+}
+
+
+.extraextralarge{
+    font-size: 15vw;
+    line-height: 0.75em;
+    letter-spacing: 3vw;
+}
+
+
+  /* 
+h2,h1,.one_col{
+    column-count 1;
+}
+
+.two_col{
+    column-count: 2;
+    column-gap: 0.3em;
+    margin: 0px;
+}
+
+.four_col{
+    column-count: 2;
+    column-gap: 0.em;
+}
+
+
+
+
+@media (min-width: 1840px){
+  p{
+    font-size: 0.85em;
+  }
+}
+
+@media (max-width: 740px) {
+  p{
+    font-size: 10px;
+  }
+  h2{
+    font-size: 10px;
+  }
+  .h2p{
     display: flex;
     flex-direction: row;
-    padding-top: 10px;
-    align-items:center;
-    flex-wrap: wrap;
-    align-content:flex-start;
-    justify-content: space-evenly;
-    z-index: 2;
-    flex-flow: wrap;
-
-}
-
-.container2{
-  display: Block;
-  background: rgba(255, 0, 0, 0.555);
-  align-items: center;
-  z-index: 2;
-}
-
-.container3{
-  display: Block;
-  background: rgba(255, 0, 0, 0.555);
-  align-items: flex-start;
-  justify-content: space-around;
-  z-index: 2;
-}
-
-content{
-  viewport: 90%;
-  align-items:flex-start;
-}
-
-  
-    img {
-    
-    width: auto;
-    height: 300px;
-    padding: 1rem;
-    z-index: 0;
-    filter: opacity(0.5);
-    position: fixed;
-
+    gap: 2px;
   }
-
-  img:hover {
-    flex-direction: column;
-    width: auto;
-    height: 400px;
-    padding: 1rem;
-    z-index: 3;
-    position: fixed;
-    filter: opacity(1);
-    
-    
+  content{
+    display: block;
   }
-
- 
-
-  .header{
-    position: sticky;
-    top: 0;
-
-  }
-
-  h1{margin-right: 2;
-    font-size: 17rem;
-    text-align: right;
-    margin-bottom: -6rem;
-  }
-
-  h2{
-    align-content: flex-start;
-    justify-content: left;
+  .haupttext{
     column-count: 1;
-    grid-row: span;
-    margin-left: 3rem;
-
   }
-  
-  h2,h1,.one_col{
-    column-count 1;
-  }
-  
+} */
 
 
-  .extraextralarge{
-      font-size: 15vw;
-      line-height: 0.75em;
-      letter-spacing: 3vw;
-  }
-  
 
-  .item{
-    display: flex;
-    flex-wrap: wrap-reverse;
-    background: rgb(153, 0, 255);
-    border: 3px solid orange;
-    z-index: 20;
-    position: fixed;
-
-    
-  }
-
-  .item:hover{
-    display: flex;
-    flex-wrap: wrap-reverse;
-    background: rgb(153, 0, 255);
-    border: 3px solid orange;
-    position:inherit
-    z-index: 30;
-    align-self: center;
- 
-
-    
-  }
-
-  @media (max-width: 800px) {
-    .container{
-      flex-direction: column;
-    }
-  }
-  
