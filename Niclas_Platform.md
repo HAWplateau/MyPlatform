@@ -1,5 +1,5 @@
 ---
-author: Niclas Hochmuth
+author: "Niclas"
 ---
 
-[Niclas_Platform](https://niclashochmuth.github.io/MyPlatform/)
+[Niclas](https://hawplateau.github.io/MyPlatform/)
